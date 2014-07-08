@@ -1,0 +1,226 @@
+body { font-family: "Trebuchet MS", sans-serif; color: #333; }
+form {margin:0;padding:0;border:0;}
+table {border-collapse: collapse;}
+tr {font-size: 80%;}
+tr a:link { color: #111; text-decoration: underline; }
+tr a:visited { color: #111; text-decoration: underline; }
+tr a:hover { color: #EF8F11; text-decoration: underline; }
+
+table.roundedTable {margin:3px auto;padding:0;border:0;width:784px;}
+table.roundedTable td {margin:0;padding:0;border:0;}
+
+table.roundedTableMain {margin:3px 0;padding:0;border:0;width:100%;height:100%;}
+table.roundedTableMain td.leftside {width:33%;padding-right:10px;}
+table.roundedTableMain td.middleside {width:33%;padding-right:10px;}
+table.roundedTableMain td.rightside {width:33%;}
+
+.pn4 {font:normal 13px arial;color:#000;text-decoration:none;}
+.pn4 a:link {font:normal 13px arial;color:#00007B;text-decoration:underline;}
+.pn4 a:visited {font:normal 13px arial;color:#00007B;text-decoration:underline;}
+.pn4 a:hover {font:normal 13px arial;color:#B92222;text-decoration:none;}
+.pn4 a:active {font:normal 13px arial;color:#00007B;text-decoration:underline;}
+
+table.geoFrame {margin:0 0 5px 0;padding:0;border:1px solid #c6c6c6;width:784px;background-color:#fff;}
+table.geoFrame td {margin:0;padding:0;border:0;background-color:#fff;}
+
+/* geoquote step 1: geoquote_step1.php */
+div.geoquote_step1_block { margin: 0; padding: 7px; background-color: #f5f5f5; text-align: center; }
+div.geoquote_step1_block { font-family: Arial, sans-serif; }
+div.geoquote_step1_block h3 { font-family: Arial, sans-serif; font-size: 95%; }
+div.geoquote_step1_block h3 { margin: 0 0 10px 0; padding: 5px 5px 5px 25px; border:0;text-align: left; border-top: solid 1px #ccc; border-bottom: solid 1px #ccc; }
+div.geoquote_step1_block h3 { background-image: url('http://plugindata.geoquote.net/images/geoquote_th.png'); background-repeat: no-repeat; background-color: #eee; }
+div.geoquote_step1_block table { width: 98%; }
+
+table.geoquote_step1 { border:0;width:100%;font-size: 120%;}
+table.geoquote_step1 tr { font-size: 12px; }
+table.geoquote_step1 th { padding: 5px; background-color: #eee; text-align: left; border-bottom: solid 1px #ccc; }
+table.geoquote_step1 td { padding: 3px 5px; }
+table.geoquote_step1 td.brcleft { width: 45%; padding-left: 25px; background-image: url('http://plugindata.geoquote.net/images/geoquote_arrow.png'); background-repeat: no-repeat; }
+table.geoquote_step1 input { background-image: url('http://plugindata.geoquote.net/images/geoquote_input.gif'); border: solid 1px #aaa; font-family: Arial, sans-serif; }
+table.geoquote_step1 select { font-size: 100%; font-family: Arial, sans-serif; }
+
+table.geoquote_step1_button { width: 100%; }
+table.geoquote_step1_button tr { font-family: Arial, sans-serif; font-size: 80%; }
+table.geoquote_step1_button td { padding: 10px; padding-left:0;text-align:left;font-size:12px;}
+table.geoquote_step1_button td input.btn_brc { background-image: url('http://plugindata.geoquote.net/images/geoquote_btn.gif'); background-color:#eee;color:#fff;padding:2px 10px;font-family:Arial,sans-serif;font-size:11px;font-weight:bold;}
+
+.large { font-size: 15px; font-weight: bold; }
+.small { font-size: 11px; }
+.red { color: red; }
+#geoquoteStep1Error {color:red;font:bold 13px arial;text-align:center;background-color:#ffe0e0;}
+.errorMsg {margin:10px auto;padding:5px 0;border:0;width:450px;background-color:pink;font:bold 12px arial;color:#111;}
+
+/* geoquote step 2: geoquote_step2_services.php */
+div.gq_questions {margin:0;padding:0;border:0;width:100%;text-align:center;}
+
+table.gqQuestions {margin:0;padding:0;border:0;width:100%;}
+table.gqQuestions td {margin:0;padding:4px;border:0;font:normal 12px arial;}
+
+table.gqQuestionsMain {margin:0 0 5px 0;padding:0;border:0;width:100%;font-family:arial;font-size:12px;background-color:#fff;}
+table.gqQuestionsMain th {width:190px;margin:0;padding:0px 10px 0px 6px;border:0;font:normal 12px arial;text-align:left;}
+table.gqQuestionsMain td {margin:0;padding:5px 4px 5px 6px;border:0;}
+table.gqQuestionsMain td select {width:130px;font-family:arial;font-size:12px;}
+table.gqQuestionsMain td .textInput {width:130px;font-family:arial;font-size:12px;}
+
+table.mplsUploadMain {margin:10px 10px;padding:0;border:0;width:95%;background-color:#e8e8e8;font-family:arial;font-size:12px;}
+table.mplsUploadMain td {margin:0;padding:2px 0 2px 0px;border:0;background-color:#e8e8e8;}
+table.mplsUploadMain td .textInput {width:130px;font-family:arial;font-size:12px;}
+table.mplsUploadMain td .uploadStyle {width:198px;font-family:arial;font-size:12px;}
+
+table.geoquote_step2 {margin:0;padding:0 3px 0 0;border:0;width:100%;}
+table.geoquote_step2 td {margin:0;padding:0px;border:0;font:normal 12px arial;}
+table.geoquote_step2_title {margin:0 0 8px 0;padding:0;border:0;width:100%;background-color:#fff5c6;}
+table.geoquote_step2_title td {margin:0 0 8px 0;padding:4px 0 4px 5px;border:0;font-size:14px;font-weight:bolder;font-family:"Trebuchet MS",arial;color:#111;}
+
+table.geoInstallation {margin:0 20px;padding:0;border:0;width:98%;}
+table.geoInstallation td {margin:0;padding:3px 0 3px 0;border:0;}
+a.quoteEmail:link {color:blue;text-decoration:underline;}
+a.quoteEmail:visited {color:blue;text-decoration:underline;}
+a.quoteEmail:hover {color:blue;text-decoration:none;}
+a.quoteEmail:active {color:blue;text-decoration:underline;}
+
+table.submitButton {margin:0;padding:0;border:0;width:98%;}
+div.noScriptDesc {width:90%;margin:5px 0 5px 10px;padding:10px 10px;border:0;line-height:130%;font:bold 12px arial;color:#d40000;background-color:#fadf76;}
+.textInput {font:normal 12px arial;}
+.radio {font:normal 12px arial;}
+#txtArea {font:normal 12px arial;}
+
+/* quote result: quote.php */
+div.quoteResultBlock {margin:0;padding:7px 7px 2px 7px;border:0;width:784px;background-color:#FFF5C6;text-align: center;}
+table.quote {margin:0 auto;padding:0;border:0;width:100%;background-color:#fff5c6;}
+table.quote th {padding:8px 5px;font:bold 11px Arial;text-align:center;vertical-align:middle;background-color:#fecb3e;white-space:wrap;}
+table.quote td {padding:3px 0;border-bottom:1px solid #fecb3e;font-family:"Trebuchet MS", sans-serif;font-size:12px;}
+table.quote td.small {padding:6px 3px;font-size:11px;}
+table.quote td.big {padding:6px 5px 6px 0;font-size:14px;font-family:"Trebuchet MS", sans-serif;font-weight:bolder;background-color:#ebdc98;text-align:right;color: #111;}
+td.colalt {background-color:#F7E6B0;}
+th.sortable {white-space:wrap;}
+tr.QuoteHigh {background-color:#ffd700;}
+tr.QuoteLine {background-color:#fff5c6;}
+
+.quoteServiceType {margin-left:0;padding-left:0;text-align:left;}
+
+table.quoteGreetings {margin:5px 0;padding:0;border:0;width:784px;}
+table.quoteGreetings td {margin:0;padding:0;border:0;}
+div.greetings {margin:0;padding:12px 3px 8px 8px;border:0px solid red;font:normal 11px verdana;}
+.boldWords {font:bolder 15px arial;}
+
+.otherService {margin:0;padding:3px 10px;border:0;line-height:160%;font:normal 12px Arial;}
+.otherServiceNext {margin:8px 0;padding:5px 0;border:0;font:bold 15px arial;}
+
+table.quoteLinks {margin:0 0 5px 0;padding:0;border:0;width:784px;}
+table.quoteLinks td {margin:0;padding:0;border:0;}
+table.quoteLinks td table.quoteLink {margin:0;padding:8px;border:0}
+table.quoteLinks td table.quoteLink th {margin:0;padding:0 0 0 50px;text-align:left;}
+table.quoteLinks td table.quoteLink td {margin:0;padding:0 0 0 10px;border:0;}
+
+table.quoteLink {margin:0;padding:0;border:0;width:100%;border-collapse:collapse;}
+table.quoteLink th {margin:0;padding:0 0 0 20px;border:0;text-align:left;vertical-align:top;}
+table.quoteLink td {margin:0;padding:0 0 0 3px;border:0;text-align:left;font:bold 11px arial;;width:100%;white-space:nowrap;}
+table.quoteLink td a:link {color:#00007B;}
+table.quoteLink td a:visited {color:#00007B;}
+table.quoteLink td a:hover {color:#B92222;text-decoration:none;}
+table.quoteLink td a:active {color:#00007B;}
+
+table.quoteInfo {margin:0;padding:0;border:0;width:98%;}
+table.quoteInfo tr {font-size: 12px; }
+table.quoteInfo th {padding: 5px;background-color:#eee;text-align:left;border-bottom:1px solid #ddd;}
+table.quoteInfo td {padding: 5px;border-bottom: solid 1px #ddd;font-family:arial;}
+
+table.quoteFilter {margin:0 0 5px 0;padding:0;border:0;width:98%;height:100%;}
+table.quoteFilter tr {font-size: 11px; }
+table.quoteFilter th {padding:5px;background-color:#eee;text-align:left;border-bottom:1px solid #ddd;}
+table.quoteFilter td {padding:5px;padding-left:30px;border-bottom: solid 1px #ddd;font:normal 12px arial;}
+
+table.quoteResultsHeader {margin:0;padding:10px;border:0;width:100%;}
+table.quoteResultsHeader th {padding:10px;font:bold 15px arial;color:#111;}
+table.quoteResultsHeader td {padding:10px;}
+
+table.quoteComments {margin:10px 0 2px 0;padding:0;border:0;width:100%;text-align:center;}
+table.quoteComments td {margin:0;padding:2px;border:0;font:normal 10px verdana;}
+
+table.quoteNotes {margin:0 0 5px 0;padding:0;border:0;width:98%;}
+table.quoteNotes tr {font-size: 11px;}
+table.quoteNotes td div.quoteNote {margin:0;padding:10px;border:0;line-height:140%;font:normal 12px arial;}
+table.quoteNotes td div.quoteNote ul {margin:5px 0 0 20px;padding:0;border:0;}
+table.quoteNotes td div.quoteNote ul li {margin:0;padding:2px 0;border:0;}
+
+table.quoteNote {margin:10px 0;padding:0;border:0;width:100%;background-color:#fff;border-collapse:collapse;}
+table.quoteNote td {margin:0;padding:0 20px;border:0;}
+table.quoteNote td div.note {margin:0;padding:5px 0;border:0;line-height:140%;font:normal 12px arial;}
+table.quoteNote td div.note ul {margin:5px 0 0 20px;padding:0;border:0;}
+table.quoteNote td div.note ul li {margin:0;padding:2px 0;border:0;}
+table.quoteNote td div.note a:link {color:#00007B;}
+table.quoteNote td div.note a:visited {color:#00007B;}
+table.quoteNote td div.note a:hover {color:#B92222;text-decoration:none;}
+table.quoteNote td div.note a:active {color:#00007B;}
+
+div.poweredBy {margin:2px auto 10px auto;padding:3px 7px 10px 7px;border:0;width:784px;text-align:right;font:normal 10px verdana;color:#888;background-color:#fff;}
+div.poweredBy a:link { color: #888; }
+div.poweredBy a:visited { color: #888; }
+div.poweredBy a:hover { color: #333;}
+div.poweredBy a:active { color: #888; }
+
+/* quote details: quote_line.php */
+table.quoteLines {margin:0;padding:0;border:1px solid #ccc;}
+table.quoteLine {margin:0;padding:0;border:0;width:784px;background-color:#fff;}
+table.quoteLine th {padding:8px 5px;font:bold 11px arial;text-align:center;vertical-align:middle;background-color:#fecb3e;}
+table.quoteLine td {padding:5px 8px;font-family:Arial;font-size:13px;}
+
+td.QuoteLineHeading {background-color:#f5f5f2;padding:5px;font-weight:bold;vertical-align:top;}
+td.QuoteLineDetailsLeft1 {background-color:#e0e0e0;padding:5px;vertical-align:top;font-size:12px;}
+td.QuoteLineDetailsRight1 {background-color:#F5F5F5;padding:5px;vertical-align:top;font-size:12px;}
+td.QuoteLineDetailsLeft2 {background-color:#d0d099;padding:5px;vertical-align:top;font-size:12px;}
+td.QuoteLineDetailsRight2 {background-color:#efef99;padding:5px;vertical-align:top;font-size:12px;}
+td.QuoteLineDetailsLeft3 {background-color:#d0d0AA;padding:5px;vertical-align:top;font-size:12px;}
+td.QuoteLineDetailsRight3 {background-color:#F5F5F5;padding:5px;vertical-align:top;font-size:12px;}
+
+/* order: order.php */
+table.orderSummary {margin:0;padding:0;border:0;background-color:#fff;width:100%;font-family:arial;font-size:13px;}
+table.orderSummary th {margin:0;padding:5px 2px;border:1px solid #ccc;white-space:nowrap;font:bold 13px arial;;background-color:#fecb3e;}
+table.orderSummary td {margin:0;padding:10px 2px;border:0;font-family:arial;font-size:13px;text-align:center;}
+
+table.orderInformation {margin:0;margin-top:10px;padding:0;border:0;background-color:#fff;width:100%;font-family:arial;font-size:12px;border-collapse:collapse;}
+table.orderInformation th {margin:0;padding:5px 2px;border:1px solid #f5f5f2;width:250px;white-space:nowrap;font-size:12px;font-weight:bold;background-color:#f5f5f2;text-align:right;vertical-align:top;}
+table.orderInformation td {margin:0;padding:5px 2px;border:0;}
+table.orderInformation td input,table.orderInformation td textarea {width:276px;font:normal 12px arial;}
+table.orderInformation td select {width:50px;font:normal 12px arial;}
+div.orderTitle {margin:3px 0 6px 0;padding:4px 0;background-color:#fecb3e;text-align:center;font:bold 13px arial;}
+div.submit {margin:0;padding:0;border:0;font:normal 13px arial;background-color:#ffcc00;text-align:right;}
+
+/* enter more info: enter_moreinfo.php */
+table.enterMoreInfo {margin:0;padding:0;border:0;background-color:#fff;width:100%;font:normal 12px arial;}
+table.enterMoreInfo th {margin:0;padding:5px;border:1px solid #f5f5f2;width:250px;white-space:normal;font-size:12px;font-weight:bold;background-color:#f5f5f2;text-align:right;vertical-align:top;}
+table.enterMoreInfo td {margin:0;padding:5px;border:0;vertical-align:top;}
+table.enterMoreInfo td input,table.enterMoreInfo td textarea {width:276px;font:normal 12px arial;}
+table.enterMoreInfo td select {width:276px;font:normal 12px arial;}
+div.enterMoreInfoTitle {margin:0 0 6px 0;padding:4px 0;background-color:#fecb3e;text-align:center;font:bold 13px arial;}
+
+/* customer login: custlogin.php */
+table.custLogin {margin:0;padding:0;border:0;width:100%;font-family:arial;font-size:12px;border-collapse:collapse;}
+table.custLogin th {margin:0;padding:2px 0 2px 3px;border:0;width:35%;text-align:right;white-space:nowrap;font-family:arial;font-size:12px;}
+table.custLogin td {margin:0;padding:2px 0 2px 9px;border:0;width:65%;font-family:arial;font-size:12px;}
+table.custLogin td input {width:160px;}
+table.custLogin div.title {margin:0 0 3px 0;padding:4px 0;border:0;font-size:14px;font-weight:bold;text-align:center;background-color:#fecb3e;}
+div.bullet {margin:0 0 0 20px;padding:0;border:0;font: bold 24px Helvetica;color:#777;text-decoration:none;white-space:nowrap;}
+
+table.quoteLogin {margin:0;padding:10px;border:0;width:100%;}
+table.quoteLogin td {margin:0;padding:10px;border:0}
+
+/* order lookup: order_lookup.php */
+table.orderLookup {margin:0;padding:0;border:0;width:100%;background-color:#fff5c6;}
+table.orderLookup th {padding:8px 5px;font:bold 11px arial;text-align:center;vertical-align:middle;background-color:#fecb3e;}
+table.orderLookup td {font-family:"Trebuchet MS", sans-serif;font-size:12px;border-bottom:1px solid #fecb3e;padding:3px 0;}
+
+/* calculate error */
+table.calculateError {margin:0 auto;padding:0;;border:1px solid #ccc;width:540px;background-color:#FFE4E4;}
+table.calculateError td {margin:0;padding:5px;border:0;}
+
+/* unsubscribe */
+table.unsubscribe {margin:5px auto;padding:0;border:1px solid #ccc;width:500px;}
+table.unsubscribe td {margin:0;padding:8px;border:0;font:normal 12px arial;}
+.unsubscribeReason {margin:10px 0;padding-left:20px;color:#333;}
+.unsubscribeThanksInfo {margin:20px 0;padding-left:20px;color:#333;}
+
+/* other */
+table.border {margin:8px;padding:5px;border:solid 1px #555;font-size:11px;font-family:arial;}
+.note {font:normal 12px arial;color:#000;text-decoration:none;}
