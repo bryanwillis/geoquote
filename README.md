@@ -8,9 +8,9 @@ Upload to a folder in you site directory.
 
 Edit lines 7,8,9 in geoquote/config.php to point to the plugin in your site path:
 
-$ReturnPath = "http://example.com/geoquote/"; // location of plugin
-$ReturnFrontPage = "geoquote.php"; // points to geoquote.php
-$AgentNumber = "1054"; // Your Agent Number (you can find this on your View Profile page of agent.telarus.com)
+    $ReturnPath = "http://example.com/geoquote/"; // location of plugin
+    $ReturnFrontPage = "geoquote.php"; // points to geoquote.php
+    $AgentNumber = "1054"; // Your Agent Number (you can find this on your View Profile page of agent.telarus.com)
 
 
 The plugin should now be accessable via http://example.com/geoquote/geoquote.php
