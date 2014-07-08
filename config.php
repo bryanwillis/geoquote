@@ -1,12 +1,10 @@
 <?php
 include_once("config_lib.php");
-
 $version = 3; // Don't touch this!
 $website = $_SERVER['SERVER_NAME']; // Don't touch this!
 
 $ReturnPath = "http://xmlplugin.com/geoquotenew/"; // Root ReturnPath to the 'return home' references on the last step of the Plug-in
 $ReturnFrontPage = "geoquote.php"; // File name (step 1) within the ReturnPath directory
-
 $AgentNumber = "1054"; // Your Agent Number (you can find this on your View Profile page of agent.telarus.com
 
 $DefaultServiceType = "D"; // Default service to be highlighted in Step 1 of the plug-in | D = Data, V = Voice, I = Intergrated, M = Multi-site, N = Network Services
