@@ -1,7 +1,6 @@
 <?php
 
-if (file_exists('config.php') == 0) {
-	echo "<P>File is missing : config.php - Please download this file from your backoffice";
+if (!file_exists('config.php')) {
 	exit;
 }
 
@@ -14,8 +13,6 @@ phpparam('Email','');
 phpparam('RepeatReason','');
 
 echo <<< EOF
-<link rel="stylesheet" href="http://plugindata.geoquote.net/css_geoquote/styles.css" type="text/css">
-<link rel="stylesheet" href="css_geoquote/styles.css" type="text/css">
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 	<tr>
 		<td align=center>
@@ -71,5 +68,4 @@ if ((isset($_COOKIE["TheCustomerID"]) == false) && (isset($TheCustomerID) == tru
 	}
 }
 
-include "footer.php";
 ?>
