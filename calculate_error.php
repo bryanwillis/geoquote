@@ -1,12 +1,9 @@
 <?php
 include_once "config.php";
-include_once "header.php";
 
 $ReturnURL = $ReturnPath . $ReturnFrontPage;
 
 echo <<< EOF
-<link rel="stylesheet" href="http://plugindata.geoquote.net/css_geoquote/styles.css" type="text/css">
-<link rel="stylesheet" href="css_geoquote/styles.css" type="text/css">
 <table class="calculateError" align="center">
 	<tr>
 		<td>
@@ -28,6 +25,4 @@ echo <<< EOF
 	</tr>
 </table>
 EOF;
-
-include_once "footer.php";
 ?>
