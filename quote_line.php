@@ -1,5 +1,8 @@
 <?php
-include "config.php";
+if (!file_exists('config.php')) {
+	exit;
+}
+include "config.php";	
 
 phpparam('QuoteID','');
 phpparam('CustomerID','');
