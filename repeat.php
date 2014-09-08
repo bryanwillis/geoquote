@@ -3,8 +3,7 @@
 if (!file_exists('config.php')) {
 	exit;
 }
-
-include "config.php";
+include "config.php";	
 
 phpparam('QuoteName','');
 phpparam('ContactName','');
